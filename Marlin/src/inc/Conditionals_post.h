@@ -2212,7 +2212,7 @@
 #endif
 #ifndef FAN_MIN_PWM
   #if FAN_OFF_PWM > 0
-    #define FAN_MIN_PWM (FAN_OFF_PWM + 1)
+    #define  (FAN_OFF_PWM + 1)
   #else
     #define FAN_MIN_PWM 0
   #endif
